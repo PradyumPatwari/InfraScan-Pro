@@ -1,1 +1,59 @@
+# -------------------------
+# Python cache & bytecode
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Virtual environments
+# -------------------------
+venv/
+.venv/
+ENV/
+env/
+
+# -------------------------
+# Environment variables
+# (NEVER upload real .env files)
+# -------------------------
+.env
+.env.*
+
+# -------------------------
+# Reports & outputs
+# -------------------------
+reports/
+*.txt
+*.json
+*.html
+*.pdf
+
+# Packet capture files
+*.pcap
+*.pcapng
+
+# Temporary logs
+*.log
+
+# -------------------------
+# System / OS junk files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# IDE / Editor folders
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# Backup / misc
+# -------------------------
+*.bak
+*.tmp
 
